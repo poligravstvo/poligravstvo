@@ -1,0 +1,478 @@
+/*
+Theme Name: magic
+Theme URI: http://vergatheme.com/demosd/magic
+Author: Verga Theme Team
+Author URI: http://vergatheme.com
+Description: In 2017, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: magic
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+#calendar_wrap {
+    width: 263px;
+}
+.widget_calendar {float: none;}
+#wp-calendar {width: 100%; }
+#wp-calendar caption { 
+    background: none repeat scroll 0 0 #E9E9E9;
+    color: #333333;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center; 
+}
+#wp-calendar thead { font-size: 10px; }
+#wp-calendar thead th {
+    border: 1px solid #E9E9E9;
+    font-size: 13px;
+    padding: 8px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+#wp-calendar tbody { color: #aaa; }
+#wp-calendar tbody td { background: #f5f5f5; border: 1px solid #E9E9E9; text-align: center; padding:8px;}
+#wp-calendar tbody td#today {background: #06C; color: #fff;}
+#wp-calendar tbody td#today a {color: #fff;}
+#wp-calendar tbody td:hover { background: #fff; }
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot {border: 1px solid #E9E9E9;}
+#wp-calendar tfoot #next { font-size: 12px; text-transform: uppercase; text-align: right; color: #83c99f;}
+#wp-calendar tfoot #prev { font-size: 12px; text-transform: uppercase; padding-top: 10px; color: #83c99f;}
+
+.widget select {max-width: 100%;padding: 5px;border: 1px solid #ccc; width: 100%;}
+.widget_text .textwidget img{max-width: 100%;height: auto;}
+.widget_text select, .widget_text input , .widget_text textarea  {max-width: 100%;padding: 5px;border: 1px solid #ccc; width: 100%;}
+.widget_text option {max-width: 100%;}
+
+.widget_nav_menu ul li, .widget_pages ul li {color: #827b7d;line-height: 28px;}
+.widget_nav_menu ul li ul, .widget_pages ul li ul {padding-left: 15px;}
+.widget_nav_menu ul li a, .widget_pages ul li a{color: #827b7d;}
+.widget_nav_menu ul li a:hover, .widget_pages ul li a:hover {color: #615C5C;}
+#sidebar .textwidget img {
+    max-width: 100%;
+}
+.post img{
+    width: auto !important;
+    max-width:100%;
+    height: auto;
+}
+.wp-caption{
+    max-width:100%;
+}
+.wp-caption img{
+    padding-bottom: 5px;
+}
+.form-submit input.submit {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+    background: #545454;
+    cursor: pointer;
+    padding: 7px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.form-submit input.submit:hover{
+    background: #ffa211;
+}
+.screen-reader-text{}
+
+/* add */
+
+.alignright{
+    float:right;
+}
+.alignleft{
+    float:left;
+}
+
+.magic-post table{ 
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+}
+.magic-post table td{
+    border: 1px solid #d1d1d1;
+    padding-left: 7px;
+} 
+.magic-post table th{
+    border: 1px solid #d1d1d1;
+    padding-left: 7px;
+ }
+ img.alignleft, .alignleft img{
+  margin-right:10px; 
+ }
+ img.alignright, .alignright img{
+  margin-left:10px;
+ } 
+ .comment_right  table{ 
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+}
+.comment_right  table td{
+    border: 1px solid #d1d1d1;
+    padding-left: 7px;
+} 
+.comment_right  table th{
+    border: 1px solid #d1d1d1;
+    padding-left: 7px;
+ }
+ .comment_right  li{
+  padding: 0!important;
+  list-style: inherit!important;
+ }
+.comment_right  ul{
+  list-style: disc!important;
+  padding-left: 20px!important;
+ }
+.comment_right  ol{
+  list-style: decimal!important;
+  padding-left: 20px!important;
+ }
+.wp-caption.aligncenter {
+    width: 100% !important;
+    text-align: center;
+}
+.comment-respond .comment-reply-title {
+    font-size: 18px;
+}
+.search-custom form {
+    width: 70% !important;
+    padding-top: 20px;
+}
+.search-custom form.search-form:after {
+    top: 20px;
+}
+.wp-caption-text , .gallery-caption , .bypostauthor , .sticky{}
+
+form.post-password-form input[type=submit] {
+    padding: 0px 5px;
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+ .screen-reader-text {
+    display: none;
+}
+
+.widget ul li {
+    list-style: none !important;
+    padding-bottom: 10px;
+}
+.widget ul {
+    padding-left: 0px !important;
+}
+.widget ul.sub-menu , .widget ul.children{
+    padding-left: 10px !important;
+}
+.widget ul.sub-menu li, .widget ul.children li{
+    padding-bottom: 3px !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+.blog-img img {
+    width: 100% !important;
+}
+ul.children li {
+    margin-left: 10px;
+}
+/*add */ 
+li.featured-post {
+    color: #ffa211;
+        font-weight: bold !important;
+}
+.wp-tag-cloud li {
+    display: inline-block;
+    padding-bottom: 0px !important;
+}
+.wp-tag-cloud li:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.wp-tag-cloud li a {
+    position: relative;
+    display: inline-block;
+    line-height: 24px;
+    padding: 5px 30px;
+    margin: 0px 5px 12px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #ffffff;
+    color: #1a1a1a;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 0px;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+}
+.wp-tag-cloud li:hover a {
+    background-color: #ffa211;
+    border-color: #ffa211;
+    color: #ffffff !important;
+}
+p.logged-in-as {
+    padding: 5px 0px;
+}
+p.logged-in-as a{
+    color: #888;
+}
+
+h3.archive-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.wrap-blog ul.children {
+    padding-left: 10px;
+}
+
+.magic-post h1 {
+    font-size: 36px;
+}
+.magic-post h2 {
+        font-size: 30px;
+}
+.magic-post h3 {
+    font-size: 24px;
+}
+.magic-post h4 {
+    font-size: 22px;
+}
+.magic-post h5 {
+    font-size: 20px;
+}
+.magic-post h6 {
+    font-size: 18px;
+}
+.comment_right h1 {
+    font-size: 36px;
+}
+.comment_right h2 {
+        font-size: 30px;
+}
+.comment_right h3 {
+    font-size: 24px;
+}
+.comment_right h4 {
+    font-size: 22px;
+}
+.comment_right h5 {
+    font-size: 20px;
+}
+.comment_right h6 {
+    font-size: 18px;
+}
+
+/******/
+
+body.logged-in .navbar-fixed-top {
+    padding-top: 52px;
+}
+.page-numbers.current, .page-numbers.current:hover{
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+    margin-top: -1px;
+}
+
+.meta-info a {
+    display: inline-block !important;
+}
+.meta-info li {
+    padding-right: 10px;
+}
+.inner-single {
+    margin-bottom: 50px;
+}
+.logo-mobile {
+    display: none;
+}
+@media (min-width: 768px) {
+.logo-mobile{
+    display: none;
+}
+.logo-default {
+    display: block;
+}
+}
+@media (max-width: 768px) {
+.logo-mobile{
+    display: block;
+}
+}
+.top-nav-collapse .logo-mobile{
+    display: block;
+}.top-nav-collapse .logo-default{
+    display: none;
+}
+.sidebar .recent-posts li h4 a {
+    color: #292929;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 5px;
+    line-height: 1.4em;
+}
+.sidebar .recent-posts li h4 a:hover {
+    color: #0075af;
+}
+.sidebar ul li a {
+    position: relative;
+    display: block;
+    color: #3d3d3d;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sidebar ul li a:hover {
+    color: #ffa211;
+}
+.blog-div-area .blog-content-div {
+    padding-top: 0px;
+}
+.column.blog-news-column {
+    margin-top: 0px;
+}
+.sidebar-page .comments-area .comment-reply-link {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #ffffff;
+    padding: 5px 30px;
+    line-height: 24px;
+    background: #545454;
+    border-radius: 0px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.sidebar-page .comments-area .comment-reply-link:hover{
+        background-color: #ffa211;
+}
+.comment-box ul.children {
+    margin-left: 10px;
+}
+.photo-slide .carousel-inner > .item > img {
+    display: inline !important;
+}
+.newsletter-content > span >input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #ffffff;
+    color: #dfdfdf;
+    font-size: 14px;
+    height: 65px;
+    padding: 0 19px;
+    width: 100%;
+}
+.newsletter-content input.button {
+    height: 77%;
+}
+.span-yellow span {
+    color: #ffa211!important;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.pd-bt-40 {
+    padding-bottom: 20px !important;
+}
+
+.hero .hero-content-i h2, .video-banner h2 {
+
+    font-size:50px;
+
+    font-weight: 600;
+
+    color: #ffa211;
+
+    letter-spacing: 3px;
+
+     font-family: 'Bungee Inline', cursive;
+
+      border-bottom:2px solid #ffa211;
+
+      padding-bottom:10px;
+
+    
+
+
+
+}
+
+@media(max-width: 770px){
+    .logo-default{
+        display: none;
+    }
+    .logo-mobile img{
+        float: left;
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+    body.logged-in .navbar-fixed-top.top-nav-collapse{
+    padding-top: 6px;
+}
+}
+
+.blog-div-area .blog-content-div .single-blog .feature-images a img {
+    width: auto;
+}
+.top-heading {
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1px;
+}
+.list-demos{
+        font-family: 'Open+Sans', sans-serif;
+            letter-spacing: 1px;
+    text-transform: none;
+}
+.benefit-texts{
+        opacity: 1;
+}
+
+.top-btn-text{
+    padding-top: 10px;
+}
+.section-title h2, .section-title.center h2{
+        padding-top: 0px;
+}
+#Benifit{
+        padding-bottom: 60px;
+}
+#awesome-features-app{
+        padding-bottom: 65px;
+}
+#superb-services{
+padding-bottom: 80px;
+}
+.benefit-texts h2{
+    padding-top: 25px;
+}
+.lead h1{
+        margin-top: 100px;
+    margin-bottom: 50px;
+}
+.top-heading-inner{
+    font-size: 33px;
+}
