@@ -9,3 +9,7 @@
 	height: auto;
 }
 
+@media screen and (max-width: 992px) {
+	.Benifit .boxs.second:first-child { margin-top: 55px; }
+	.Benifit .boxs.second, .Benifit .boxs.four { margin: 0; }
+}
