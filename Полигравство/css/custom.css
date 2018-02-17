@@ -3,11 +3,18 @@
 
 .cbp-wrapper {
 	position: static;
-	width: 80%;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 	height: auto;
 }
+
+.cbp-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cbp .cbp-item { margin: 10px auto; }
 
 @media screen and (max-width: 992px) {
 	.Benifit .boxs.second:first-child { margin-top: 55px; }
