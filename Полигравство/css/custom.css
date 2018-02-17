@@ -1,6 +1,5 @@
-.cbp .cbp-item {
-	position: static;
-}
+.cbp .cbp-item { position: static; }
+.cbp-item-wrapper { cursor: pointer; }
 
 .cbp-wrapper {
 	position: static;
@@ -9,3 +8,4 @@
 	margin: 0 auto;
 	height: auto;
 }
+
