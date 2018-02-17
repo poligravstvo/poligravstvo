@@ -1,4 +1,6 @@
-$(function() {
+jQuery(function(jQuery) {
+
+    var $ = jQuery;
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
@@ -63,6 +65,6 @@ $(function() {
 
 
 /*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
-    $('#success').html('');
+jQuery('#name').focus(function() {
+    jQuery('#success').html('');
 });

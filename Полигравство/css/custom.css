@@ -1,0 +1,11 @@
+.cbp .cbp-item {
+	position: static;
+}
+
+.cbp-wrapper {
+	position: static;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	height: auto;
+}
